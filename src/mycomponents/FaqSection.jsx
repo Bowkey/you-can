@@ -75,7 +75,7 @@ we support clients until they start their journey`
         <div className='flex flex-col md:flex-row justify-center gap-10 py-10'>
 
           <div>
-            <Accordion defaultValue={["item-1"]} className="max-w-full min-w-md">
+            <Accordion defaultValue={["item-1"]} className="max-w-full min-w-[300px] md:min-w-[400px]">
               {faq.map((item) => (
                 <AccordionItem value={item.question} key={item.question} className="mb-2">
                   <AccordionTrigger className="hover:cursor-pointer bg-blue-200 px-2 rounded-s-sm ">{item.question}</AccordionTrigger>
